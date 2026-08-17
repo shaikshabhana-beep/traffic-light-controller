@@ -1,0 +1,20 @@
+Expected simulation output:
+
+```text
+Time=0  | Reset=1 | RED=1 | YELLOW=0 | GREEN=0
+Time=10 | Reset=0 | RED=1 | YELLOW=0 | GREEN=0
+Time=40 | Reset=0 | RED=0 | YELLOW=0 | GREEN=1
+Time=80 | Reset=0 | RED=0 | YELLOW=1 | GREEN=0
+Time=100| Reset=0 | RED=1 | YELLOW=0 | GREEN=0
+```
+
+### Expected Sequence
+
+```text
+RED → GREEN → YELLOW → RED → ...
+```
+
+Only one traffic light is ON at a time.
+
+```
+```
